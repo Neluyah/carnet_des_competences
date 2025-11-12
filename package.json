@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-yohann",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  },
+  "description": "",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6"
+  }
+}
